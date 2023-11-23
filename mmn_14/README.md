@@ -12,6 +12,10 @@ The project includes five Java classes: Point, City, Country, Date, and CityNode
 - [Features](#features)
 - [Classes](#classes)
 - [Usage](#usage)
+- - [Testing](#testing)
+  - [Running the Tests](#running-the-tests)
+  - [Sample Test Cases](#sample-test-cases)
+- [Skills](#skills)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -73,7 +77,155 @@ System.out.println("Country Name: " + myCountry.getName());
 System.out.println("Number of Cities: " + myCountry.getNumCities());
 ```
 
-### Skills 
+## Testing
+
+### Running the Tests
+
+To run the tests, execute the `main` method in the `Tester` class.
+
+```bash
+java Tester
+```
+
+## Sample Test Cases
+
+### Date Class
+
+#### Test Constructors:
+- **Test valid date:**
+  - Create a Date object with a valid date (15/6/2022) and ensure it is created correctly.
+  
+- **Test invalid date (should default to 1/1/2000):**
+  - Create a Date object with an invalid date (32/13/5000) and ensure it defaults to 1/1/2000.
+
+- **Test copy constructor:**
+  - Create two Date objects, use the copy constructor, and ensure the copied date is the same.
+
+#### Test Setters:
+- **Test valid day:**
+  - Create a Date object, set a valid day (10), and ensure the day is updated.
+
+- **Test invalid day (should not change):**
+  - Create a Date object, set an invalid day (32), and ensure the day remains unchanged.
+
+- **Test valid month:**
+  - Create a Date object, set a valid month (5), and ensure the month is updated.
+
+- **Test invalid month (should not change):**
+  - Create a Date object, set an invalid month (13), and ensure the month remains unchanged.
+
+- **Test valid year:**
+  - Create a Date object, set a valid year (2023), and ensure the year is updated.
+
+- **Test invalid year (should not change):**
+  - Create a Date object, set an invalid year (10000), and ensure the year remains unchanged.
+
+#### Test Comparisons:
+- **Test equals:**
+  - Create two Date objects with the same date and ensure they are considered equal.
+
+- **Test before:**
+  - Create two Date objects, set one before the other, and ensure the correct result.
+
+- **Test after:**
+  - Create two Date objects, set one after the other, and ensure the correct result.
+
+#### Test Calculations:
+- **Test difference:**
+  - Create two Date objects, calculate the difference in days, and ensure the correct result.
+
+- **Test tomorrow:**
+  - Create a Date object, calculate the date of tomorrow, and ensure it is correct.
+
+### Point Class
+
+#### Test Constructors:
+- **Test valid point:**
+  - Create a Point object with valid coordinates (5, 10) and ensure it is created correctly.
+
+- **Test invalid point (should default to (0, 0)):**
+  - Create a Point object with invalid coordinates (-2, -7) and ensure it defaults to (0, 0).
+
+- **Test copy constructor:**
+  - Create two Point objects, use the copy constructor, and ensure the copied point is the same.
+
+#### Test Setters:
+- **Test valid X coordinate:**
+  - Create a Point object, set a valid X coordinate (7), and ensure the X coordinate is updated.
+
+- **Test invalid X coordinate (should not change):**
+  - Create a Point object, set an invalid X coordinate (-2), and ensure the X coordinate remains unchanged.
+
+- **Test valid Y coordinate:**
+  - Create a Point object, set a valid Y coordinate (12), and ensure the Y coordinate is updated.
+
+- **Test invalid Y coordinate (should not change):**
+  - Create a Point object, set an invalid Y coordinate (-5), and ensure the Y coordinate remains unchanged.
+
+#### Test Comparisons:
+- **Test equals:**
+  - Create two Point objects with the same coordinates and ensure they are considered equal.
+
+- **Test isAbove:**
+  - Create two Point objects, set one above the other, and ensure the correct result.
+
+- **Test isUnder:**
+  - Create two Point objects, set one under the other, and ensure the correct result.
+
+- **Test isLeft:**
+  - Create two Point objects, set one to the left of the other, and ensure the correct result.
+
+- **Test isRight:**
+  - Create two Point objects, set one to the right of the other, and ensure the correct result.
+
+#### Test Calculations:
+- **Test middle:**
+  - Create two Point objects, calculate the middle point, and ensure it is correct.
+
+- **Test distance:**
+  - Create two Point objects, calculate the distance between them, and ensure the correct result.
+
+- **Test move:**
+  - Create a Point object, move it by a certain amount, and ensure it is moved correctly within the first quadrant.
+
+### City Class
+
+#### Test Constructors:
+- **Test valid City:**
+  - Create a City object with valid parameters and ensure it is created correctly.
+
+- **Test invalid City (should default parameters):**
+  - Create a City object with invalid parameters and ensure it defaults to specified values.
+
+#### Additional City Tests:
+- Include relevant tests for methods specific to the City class.
+
+### Country Class
+
+#### Test Constructors:
+- **Test valid Country:**
+  - Create a Country object with a valid name and ensure it is created correctly.
+
+- **Test invalid Country (should default name):**
+  - Create a Country object with an invalid name and ensure it defaults to a specified value.
+
+#### Additional Country Tests:
+- Include relevant tests for methods specific to the Country class.
+
+### CityNode Class
+
+#### Test Constructors:
+- **Test valid CityNode:**
+  - Create a CityNode object with a valid City and ensure it is created correctly.
+
+- **Test invalid CityNode (should default city):**
+  - Create a CityNode object with an invalid City and ensure it defaults to a specified city.
+
+#### Additional CityNode Tests:
+- Include relevant tests for methods specific to the CityNode class.
+
+
+## Skills 
 
 Throughout the development of this project, we learned and applied skills in various pertinent fields:
 
@@ -96,7 +248,7 @@ Throughout the development of this project, we learned and applied skills in var
 - **Documentation:** Documented code effectively, making it easier for other developers (and future self) to understand and contribute to the project.
 
 
-### Installation
+## Installation
 
 To integrate this project into your Java application, follow these steps:
 
@@ -104,7 +256,7 @@ To integrate this project into your Java application, follow these steps:
 2. Import the relevant Java files into your project.
 3. Ensure that you have the required dependencies and adjust the package structure if necessary.
 
-### Contributing
+## Contributing
 
 If you'd like to contribute to this project, please follow these guidelines:
 
@@ -112,7 +264,7 @@ If you'd like to contribute to this project, please follow these guidelines:
 - Create a new branch for your feature or bug fix
 - Make your changes and submit a pull request
 
-### License
+## License
 
-This project is licensed under the [MIT](dcac) License.
+This project is licensed under the [MIT](https://github.com/yehonatanke/OpenU-Java/blob/main/LICENSE) License.
 
