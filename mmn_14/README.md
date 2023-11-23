@@ -69,7 +69,7 @@ Example:
 Country myCountry = new Country("USA");
 
 // Add a city to the country
-City myCity = new City("New York", new Date(12, 5, 1922), new Point(3, 4), new Point(88, 96), 500000, 10);
+City myCity = new City("New York", new Date(12, 5, 1922), new Point(40, 74), new Point(88, 96), 8400000, 399);
 myCountry.addCity(myCity);
 
 // Access country information
