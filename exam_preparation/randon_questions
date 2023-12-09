@@ -1,4 +1,221 @@
-public class Main {
+public class fromWebsite {
+    public static void main (String[] args) {
+        // Uncomment and test each method as needed.
+//        int[] a1 = {5, 4, 2, 1, 3};
+//
+//        System.out.println("need to be true, num = 0 " + isSum(a1, 0));
+//        System.out.println("need to be true, num = 8 " + isSum(a1, 8));
+//        System.out.println("need to be true, num = 9 " + isSum(a1, 9));
+//        System.out.println("need to be true, num = 2 " + isSum(a1, 2));
+//        System.out.println("need to be false, num = 11 " + isSum(a1, 11));
+//        System.out.println("need to be false, num = 17 " + isSum(a1, 17));
+//        System.out.println("need to be false, num = 77 " + isSum(a1, 77));
+
+
+        // Q2
+
+//        int[] r1 = {5, 4, 5, 8, 12, 9, 9, 3};
+//        int[] r2 = {7, 3, 3, 12, 10, 2, 10, 7};
+//
+//        System.out.println("the shortest path is: " + shortestRoad(r1, r2));
+
+        //2019 moed 85
+//        int[] p1 = {1, 3, 2, 3, 10, 10, 3, 2, 4};
+//        int[] p2 = {4, 3, 2, 1, 2, 3, 4};
+//        int[] p3 = {1, 2, 3, 4};
+//
+//        System.out.println("the longest palindrome of p1 (should be 6) is: " + longestPalindrome(p1));
+//        System.out.println("the longest palindrome of p2 (should be 7) is: " + longestPalindrome(p2));
+//        System.out.println("the longest palindrome of p3 (should be 1) is: " + longestPalindrome(p3));
+//        System.out.println("is palindrom " + isPalindrom(p3, 0, p3.length - 1));
+//
+//        int[] s1 = {7, 10, 13, 16, 22, 25};
+//        int[] s2 = {2, 4, 6, 8, 10, 14, 16, 18};
+//        System.out.println("the missing number from series (should be 19) is: " + missingValue(s1));
+//        System.out.println("the missing number from series (should be 12) is: " + missingValue(s2));
+
+//        System.out.println("the result should be 4, and the result is " + howManySorted(3, 2));
+//        System.out.println("the result should be 6, and the result is " + howManySorted(2, 3));
+// *** 2019b ***
+
+//        boolean[][] t1 = {{false, false, false, false, true},
+//                {false, true, true, true, false},
+//                {false, false, true, true, false},
+//                {true, false, false, false, false},
+//                {true, true, false, false, false}};
+//
+//        boolean[][] t2 = {{true, true, false, false, true},
+//                {false, false, false, false, false},
+//                {false, true, true, false, true},
+//                {false, false, false, false, false},
+//                {true, false, false, true, true}};
+//
+//        boolean[][] t3 = {{true, false, false, false, false},
+//                {false, false, false, false, false},
+//                {false, false, false, false, false},
+//                {false, false, false, false, false},
+//                {false, false, false, false, false}};
+//
+//        System.out.println("the result should be 3, and the result is " + cntTrueReg(t1));
+//        System.out.println("the result should be 6, and the result is " + cntTrueReg(t2));
+//        System.out.println("the result should be 1, and the result is " + cntTrueReg(t3));
+//
+//        Range[] ra1 = new Range[]{new Range(4,1), new Range(12,0),new Range(20,1), new Range(102,2)};
+//        Range.printRangeArrau(ra1);
+//        System.out.println("the result is: " +Range.findNum(ra1, 15));
+
+//        String str1 = "geek";
+//        String str2 = "gesek";
+//        System.out.println("the edit result is: " + edit(str1, str2));
+//
+//        int[] x1 = {-2, 0, 1, 3};
+//        int[] x2 = {1, 3, 4, 5, 7};
+//
+//        System.out.println("the answer shold be 2 for x1 and it is: " + countTriplets(x1, 2));
+//        System.out.println("the answer shold be 4 for x2 and it is: " + countTriplets(x1, 12));
+
+//        int[] arr = {1, 9, 2, 8, 4, 7, 7, 4, 12};
+//        System.out.println("(should be 3) the result is: " + crossSearch(arr, 7));
+
+        // crossSort(arr);
+
+        // Print the sorted array
+//        for (int num : arr) {
+//            System.out.print(num + " ");
+//        }
+//        System.out.println();
+
+        int[][] array1 = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+        int[][] array2 = {
+                {1, 2},
+                {3, 4}
+        };
+        int[][] array3 = {
+                {5}
+        };
+        int[][] array4 = {
+                {1, 1, 1, 1},
+                {1, 1, 1, 1},
+                {1, 1, 1, 1}
+        };
+//        System.out.println("Array 1:");
+//        System.out.println("Expected output: 21");
+//        System.out.print("Actual output: ");
+//        printPathWeights(array1);
+//        System.out.println();
+//
+//        System.out.println("Array 1: method2: ");
+//        System.out.println("Expected output: 21");
+//        System.out.print("Actual output: ");
+//        printPathWeights2(array1);
+//        System.out.println();
+//
+//
+//        System.out.println("Array 2:");
+//        System.out.println("Expected output: 10");
+//        System.out.print("Actual output: ");
+//        printPathWeights(array2);
+//        System.out.println();
+//        System.out.println("Array 2: method2: ");
+//        System.out.println("Expected output: 10");
+//        System.out.print("Actual output: ");
+//        printPathWeights2(array2);
+//        System.out.println();
+//
+//
+//        System.out.println("Array 3:");
+//        System.out.println("Expected output: 5");
+//        System.out.print("Actual output: ");
+//        printPathWeights(array3);
+//        System.out.println();
+//        System.out.println("Array 3:");
+//        System.out.println("Expected output: 5");
+//        System.out.print("Actual output: ");
+//        printPathWeights2(array3);
+//        System.out.println();
+//
+//
+//        System.out.println("Array 4:");
+//        System.out.println("Expected output: 8");
+//        System.out.print("Actual output: ");
+//        printPathWeights(array4);
+//        System.out.println();
+//        System.out.println("Array 4: method2: ");
+//        System.out.println("Expected output: 8");
+//        System.out.print("Actual output: ");
+//        printPathWeights2(array4);
+//        System.out.println();
+
+        int[][] z1 = {{1, 2, 3, 2, 0, 1, 2},
+                {0, 1, 0, 0, 0, 3, 0},
+                {0, 0, 1, 0, 0, 0, 0},
+                {5, 0, 0, 1, 0, 0, 0},
+                {7, 0, 0, 0, 1, 0, 0},
+                {8, 0, 0, 0, 0, 1, 0},
+                {1, 0, 0, 0, 0, 0, 0}};
+
+//        System.out.println("the result should be true and it is: " + isIdentity(z1, 0, 1));
+//        System.out.println("the result should be true and it is: " + isIdentity(z1, 1, 1));
+//        System.out.println("the result should be true and it is: " + isIdentity(z1, 4, 1));
+//        System.out.println("the result should be true and it is: " + isIdentity(z1, 4, 2));
+//        System.out.println("the result should be false and it is: " + isIdentity(z1, 4, 3));
+
+//        System.out.println("the result should be 3 and it is: " + maxMatrix(z1));
+
+//        int[] v1 = {1, 3, 6, 2};
+//        System.out.println("the result should be 5 and it is: " + printExpr(v1, 3));
+
+//        int[] routh = {2, 8, 3, 4, 7, 1, 3, 2};
+//        System.out.println("the result should be 12 and it is: " + cheapestRoute(routh));
+
+//        int[] m1 = {35, 17, 13, 252, 4, 128, 7, 3, 81};
+//        System.out.println("the first array is: ");
+//        printArrayHelper(m1);
+//        sortMod(m1, 3);
+//        System.out.println("and the array after sort is: ");
+//        printArrayHelper(m1);
+//
+//        System.out.println("for n = 0 and k = 0 the answer (should be 1) is: " + ways(0, 0));
+//        System.out.println("for n = 2 and k = 4 the answer (should be 4) is: " + ways(2, 4));
+//        System.out.println("for n = 2 and k = 4 the answer (should be 0) is: " + ways(3, 4));
+
+        int[] u1 = {65, 70, -5, 3, 48, 49, 52};
+//        printArrayHelper(u1);
+//        returnToSortArray(u1);
+//        printArrayHelper(u1);
+//
+//        System.out.println("the result should be true, and the result is: " + findSum(u1, 44));
+//        System.out.println("the result should be false, and the result is: " + findSum(u1, 45));
+
+//        int[][] mat = {{1, 5, 7}, {3, 2, 9}, {1, 2, 3}};
+//        int[] arr = {7, 2, 3};
+//
+//        System.out.println("The result for k=2 should be true, and it's: " + cover(mat, arr, 2));
+//        System.out.println("The result for k=3 should be true, and it's: " + cover(mat, arr, 3));
+//        System.out.println("The result for k=9 should be true, and it's: " + cover(mat, arr, 9));
+//        System.out.println("The result for k=1 should be false, and it's: " + cover(mat, arr, 1));
+//        System.out.println("arr = ");
+//        printArrayHelper(arr);
+//        System.out.println();
+//        int[] temp = new int[arr.length];
+//        System.out.println("temp = ");
+//        printArrayHelper(temp);
+//        System.out.println();
+//        temp = checkForJ(arr, mat, 1);
+//        System.out.println("new temp = ");
+//        printArrayHelper(temp);
+//        System.out.println();
+
+        System.out.println("the result should be 2 (for 10) and it's: " + oneFiveSeven(10));
+        System.out.println("the result should be 1 (for 5) and it's: " + oneFiveSeven(5));
+        System.out.println("the result should be 2 (for 6) and it's: " + oneFiveSeven(6));
+
+    }
+
     /**
      * Helper method to print the elements of an array in a specific format.
      *
@@ -1020,11 +1237,9 @@ public class Main {
             return sizeOfCenterMat + maxMatrix(mat, i - 1, sizeOfCenterMat + 1, center);
         }
         return 0;
-
     }
-
-
 }
+
 
 
 
