@@ -1,4 +1,4 @@
-public class fromWebsite {
+public class Main {
     public static void main (String[] args) {
         // Uncomment and test each method as needed.
 //        int[] a1 = {5, 4, 2, 1, 3};
