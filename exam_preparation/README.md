@@ -1,8 +1,19 @@
 # Java Code Examples - Recursion and Complexity Questions
 
-This repository contains a collection of Java code examples focusing on recursion and complexity questions. The code is written in a somewhat messy manner as it was initially created for personal usage. However, it may still serve as a valuable resource for learning and reference.
+This repository contains a collection of Java methods and algorithms designed for personal exam preparation, focusing on recursion and complexity questions. The code is written in a somewhat messy manner as it was initially created for personal usage. However, it may still serve as a valuable resource for learning and reference.
 
-## Table of Contents
+## Usage
+The code is organized into sections, each corresponding to a specific question or problem. While the code may not be highly organized, it served the purpose of personal exam preparation. It includes solutions to questions related to recursion, complexity analysis, and specific scenarios.
+
+## Notes
+- The code may appear messy as it was primarily written for personal use and exam preparation.
+- Each section corresponds to a specific question or problem-solving scenario.
+- Feel free to explore and modify the code based on your needs.
+- The README provides brief insights into the purpose and structure of the codebase.
+
+
+
+## Table of Contents (partial)
 
 1. **Array and String Manipulation**
     - `isSum`: Check if a sum can be achieved using elements of an array.
@@ -38,6 +49,9 @@ This repository contains a collection of Java code examples focusing on recursio
 
 ## Note
 This codebase primarily focuses on recursion and complexity questions. The organization of the code is not optimal due to its initial creation for personal usage. Despite its messy structure, it may still be beneficial for those interested in exploring recursion and complexity concepts in Java.
+
+## Disclaimer
+This code is shared as-is and may not adhere to standard coding conventions. It was developed for personal usage and exam preparation. Modifications and enhancements can be made based on individual preferences and requirements.
 
 Feel free to explore, modify, and use these examples for educational purposes. If you have any questions or improvements, please don't hesitate to contribute.
 
