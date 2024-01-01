@@ -1,4 +1,4 @@
-# Java Programming Project: Country
+# Java Programming Project - Country
 
 ## Overview
 
