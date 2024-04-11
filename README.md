@@ -6,5 +6,5 @@
   <img src="https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=law">
 </div>
 
-# OpenU-Java
-My work in the course 20441 Introduction To Computer Science In Java.
+# Introduction to Computer Science - Java
+My work in the course Introduction to Computer Science Using Java.
